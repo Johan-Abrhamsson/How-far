@@ -1,25 +1,30 @@
 header {
   background-color: black;
-  border: solid, black, 20px;
-  align-self: center;
+  border: solid black 20px;
+  text-align: center;
   color: white;
 }
 main {
   display: grid;
-  grid-template-columns: 0.25fr repeat(9, 1fr);
+  grid-template-columns: 0.25fr repeat(5, 1fr);
   grid-template-rows: repeat(31, 1fr);
   border: black 20px solid;
 }
 .lineStyle {
   border: black 3px solid;
   background-color: black;
-  color:white;
+  color: white;
 }
 .lineStyle0 {
   border: blue 3px solid;
   background-color: blue;
-  color:white;
+  color: white;
 }
+
+img {
+  border: black 2px solid;
+}
+
 .numberfile31 {
   grid-row: 31;
 }
