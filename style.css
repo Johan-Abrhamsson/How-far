@@ -6,7 +6,7 @@ header {
 }
 main {
   display: grid;
-  grid-template-columns: 0.25fr repeat(5, 1fr);
+  grid-template-columns: repeat(2, 0.25fr) repeat(4, 1fr);
   grid-template-rows: repeat(31, 1fr);
   border: black 20px solid;
 }
