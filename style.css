@@ -7,7 +7,7 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(2, 0.25fr) repeat(4, 1fr);
-  grid-template-rows: repeat(31, 1fr);
+  grid-template-rows: repeat(32, 1fr);
   border: black 20px solid;
 }
 .lineStyle {
@@ -25,6 +25,9 @@ img {
   border: black 2px solid;
 }
 
+.numberfile32 {
+  grid-row: 32;
+}
 .numberfile31 {
   grid-row: 31;
 }
