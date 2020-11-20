@@ -1,10 +1,10 @@
-body {
+html {
   scroll-behavior: smooth;
 }
 
 header {
   font-family: "Staatliches", cursive;
-  font-size: 64px;
+  font-size: 6vmax;
   background-color: black;
   border: solid black 10px;
   text-align: center;
@@ -32,7 +32,7 @@ main {
 }
 footer {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.75vmax;
   background-color: black;
   color: white;
   display: grid;
@@ -60,7 +60,7 @@ footer {
 .smallText {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.75vmax;
 }
 .bigText {
   text-align: center;
